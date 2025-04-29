@@ -10,7 +10,7 @@ pipeline {
 
         stage('Compile') {
             steps {
-                bat 'javac -cp "lib/*" -d bin *.java'
+                bat 'javac -cp "lib/*" -d bin PallindromeT2.java'
             }
         }
 
