@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Setup') {
             steps {
-                bat 'mkdir bin'
+                bat 'if not exist bin mkdir bin'
             }
         }
 
